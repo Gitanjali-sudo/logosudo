@@ -33,6 +33,17 @@
                 <a-box width="12.45"depth="1"height="14"color="#F2E545"position="0 7 0"></a-box>
                 <a-box width="12.5"depth="1"height="14"color="#EF2D5E"position="0 7 -0.52" shader="flat"></a-box>
              </a-entity>
+             <a-entity rotation="-90 0 0" animation="property:object3D.scale.y;from:0.0001;to:1;delay:800;dur:1000;easing:easeOutCubic" scale="1 0.0001 1">
+                <a-plane color="green"position="0 0 0" width="30" height="30">
+                </a-plane>
+            </a-entity>
+            <!-- ground of A -->
+            <a-entity>
+                <a-box animation="property:object3D.position.z;to:120;delay:1000;dur:4000;easing:easeOutCubic" position="26 20 -80" color="white" width="6" height="4" depth="9" opacity="0.5"></a-box>
+                <a-box animation="property:object3D.position.z;to:120;delay:1000;dur:4000;easing:easeOutCubic" position="-20 80 -50" color="white" width="6" height="4" depth="9" opacity="0.5"></a-box>
+                <a-box animation="property:object3D.position.z;to:120;delay:1000;dur:4000;easing:easeOutCubic" position="20 16 -80" color="white" width="6" height="4" depth="9" opacity="0.5"></a-box>
+                <a-box animation="property:object3D.position.z;to:120;delay:1000;dur:4000;easing:easeOutCubic" position="5 32 -80" color="white" width="6" height="4" depth="9" opacity="0.5"></a-box>
+            </a-entity>
          </a-entity>
     </a-scene>
 </body>
